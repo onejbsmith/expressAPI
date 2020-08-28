@@ -1,0 +1,11 @@
+
+@html.extend('layout',function(model){
+
+	@html.block('body',function(model){
+            <h1>About</h1>
+            <h3>@model.title</h3>
+            <p>@model.content</p>
+
+    });
+
+});
